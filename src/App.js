@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./App.css";
-import TodoContainer from "./TodoContainer";
-import About from "./About";
-import Nav from "./Nav";
+import TodoContainer from "./component/TodoContainer";
+import About from "./component/About";
+import Nav from "./component/Nav";
+
 export default class App extends Component {
   state = {
     page: "todoApp",
